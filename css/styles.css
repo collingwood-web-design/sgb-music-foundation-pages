@@ -885,10 +885,15 @@ a:hover {
 }
 
 .ig-feed {
-  padding: 2rem 1rem 2.5rem;
+  width: 100%;
+  padding: 2rem 0 2.5rem;
   background: var(--white);
-  max-width: var(--max);
-  margin: 0 auto;
+}
+
+.ig-feed .elfsight-app-ce1009b7-9a05-429d-a2d8-db17f6e5318a,
+.ig-feed [class*="elfsight-app-"] {
+  width: 100% !important;
+  max-width: none !important;
 }
 
 /* Contact — bay photo background */
