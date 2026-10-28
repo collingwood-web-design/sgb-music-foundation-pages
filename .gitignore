@@ -1,0 +1,20 @@
+.wrangler/
+_download/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+node_modules/
+
+# Site images and media are hosted on https://media.cwd-cdn.com
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+*.mp3
+*.mp4
+*.webm
+*.wav
