@@ -180,6 +180,8 @@
           <h2>Newsletter</h2>
           <p>Subscribe to our newsletter where we will keep you up to date with all SGBMF events.</p>
           <form action="#" method="post" onsubmit="return false;">
+            <label class="sr-only" for="newsletter-name">Name</label>
+            <input id="newsletter-name" type="text" name="name" placeholder="Name" required autocomplete="name">
             <label class="sr-only" for="newsletter-email">Email</label>
             <input id="newsletter-email" type="email" name="email" placeholder="Email" required autocomplete="email">
             <button type="submit">Subscribe</button>
