@@ -179,11 +179,17 @@
         <aside class="newsletter" id="newsletter">
           <h2>Newsletter</h2>
           <p>Subscribe to our newsletter where we will keep you up to date with all SGBMF events.</p>
-          <form action="#" method="post" onsubmit="return false;">
+          <form
+            class="ml-block-form"
+            action="https://assets.mailerlite.com/jsonp/354181/forms/82021614954218905/subscribe"
+            method="post"
+            target="_blank">
             <label class="sr-only" for="newsletter-name">Name</label>
-            <input id="newsletter-name" type="text" name="name" placeholder="Name" required autocomplete="name">
+            <input id="newsletter-name" type="text" name="fields[name]" placeholder="Name" autocomplete="name">
             <label class="sr-only" for="newsletter-email">Email</label>
-            <input id="newsletter-email" type="email" name="email" placeholder="Email" required autocomplete="email">
+            <input id="newsletter-email" type="email" name="fields[email]" placeholder="Email" required autocomplete="email">
+            <input type="hidden" name="ml-submit" value="1">
+            <input type="hidden" name="anticsrf" value="true">
             <button type="submit">Subscribe</button>
           </form>
         </aside>
